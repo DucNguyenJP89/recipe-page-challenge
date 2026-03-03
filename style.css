@@ -3,6 +3,25 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-size: 1 rem;
+  font-family: "Outfit", sans-serif;
+}
+
+.text-preset1 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+}
+
+.text-preset2 {
+  font-family: "Outfit", sans-serif;
+  font-weigth: 400;
+}
+
+.recipe-img {
+  width: 100%;
+}
+
+.recipe-img img {
+  width: 100%;
 }
 
 .attribution {
