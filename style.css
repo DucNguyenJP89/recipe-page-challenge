@@ -1,19 +1,45 @@
+:root {
+  --stone-100: hsl(30, 54%, 90%);
+  --stone-150: hsl(30, 18%, 87%);
+  --stone-600: hsl(30, 10%, 34%);
+  --stone-900: hsl(24, 5%, 18%);
+  --brown-800: hsl(14, 45%, 36%);
+  --rose-800: hsl(332, 51%, 32%);
+  --rose-50: hsl(330, 100%, 98%);
+}
+
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 1 rem;
   font-family: "Outfit", sans-serif;
+  letter-spacing: 0;
 }
 
 .text-preset1 {
   font-family: "Young Serif", serif;
   font-weight: 400;
+  font-size: 2.25rem;
 }
 
 .text-preset2 {
-  font-family: "Outfit", sans-serif;
-  font-weigth: 400;
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-size: 1.75rem;
+}
+
+.text-preset3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.text-preset4 {
+  line-height: 1.5;
+}
+
+.text-preset4-bold {
+  font-weight: 700;
+  line-height: 1.5;
 }
 
 .recipe-img {
@@ -23,6 +49,34 @@ body {
 .recipe-img img {
   width: 100%;
 }
+
+.recipe-container {
+  padding: 40px 32px;
+}
+
+.recipe-headings h1 {
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.recipe-headings p {
+  margin: 0;
+  color: var(--stone-600);
+}
+
+.recipe-prep-time {
+  padding: 24px;
+  margin: 32px 0;
+  background-color: var(--rose-50);
+  border-radius: 12px;
+}
+
+.recipe-prep-time h3 {
+  margin: 0;
+  color: var(--rose-800);
+}
+
+
 
 .attribution {
   font-size: 11px;
